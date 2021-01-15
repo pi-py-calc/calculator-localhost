@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo python3 -m http.server -d /usr/share/piculator/static 11111
+sudo http-server /usr/share/piculator/static -p 11111 --cors -s
