@@ -1,2 +1,5 @@
 #!/bin/bash
-sudo http-server /usr/share/piculator/static -p 11111 --cors -s
+if ! pgrep -f "http-server /usr/share/piculator/static" > /dev/null
+then
+    sudo http-server /usr/share/piculator/static -p 11111 --cors -s
+fi
