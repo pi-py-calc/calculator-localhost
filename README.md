@@ -5,6 +5,10 @@
 ## 安装
 
 ```sh
-npm install http-server -g
+git clone https://github.com/piculator/piculator-localhost.git --depth=1
+cd piculator-localhost
+chmod +x install
+./install
+# 如果没有错误则安装成功
 ```
 
