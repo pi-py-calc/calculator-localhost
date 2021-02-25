@@ -1,0 +1,3 @@
+#!/bin/bash
+systemctl stop piculator-localhost
+systemctl disable piculator-localhost

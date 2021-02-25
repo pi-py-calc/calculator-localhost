@@ -1,0 +1,12 @@
+[Unit]
+Description=Host local static assets
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/start-piculator-localhost
+ExecStop=/usr/bin/stop-piculator-localhost
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

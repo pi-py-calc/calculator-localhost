@@ -1,0 +1,10 @@
+Package: piculator-localhost
+Architecture: all
+Name: piculator-localhost
+Description: Host local static assets
+Version: 1.0-1
+Section: base
+Depends: nodejs, npm
+Author: Piculator Development Team <piculator@protonmail.com>
+Maintainer: Piculator Development Team <piculator@protonmail.com>
+HomePage: https://github.com/piculator/piculator-localhost

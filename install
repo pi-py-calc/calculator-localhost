@@ -1,3 +1,0 @@
-#!/bin/bash
-sudo mkdir -p /usr/share/piculator/static
-sudo npm install http-server -g && sudo cp start-piculator-localhost /usr/bin/ && sudo chmod +x /usr/bin/start-piculator-localhost && echo "start-piculator-localhost &" | sudo tee /etc/bash.bashrc
