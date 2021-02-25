@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
 mkdir -p /usr/share/piculator/static
-npm install http-server
+npm install -g http-server
